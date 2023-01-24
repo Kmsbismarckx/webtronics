@@ -5,7 +5,7 @@ import ProgramCard from "./ProgramCard";
 const Technologies: FC = () => {
   const programsUrls = ["angular", "react", "vue", "js"];
   return (
-    <section className={technologiesStyles.technologies}>
+    <section id='programs' className={technologiesStyles.technologies}>
       <div className={technologiesStyles.header}>
         <h2 className={technologiesStyles.title}>
           Programming <br /> technologies

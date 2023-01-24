@@ -4,7 +4,7 @@ import Swiper from "./Swiper";
 
 const Review: FC = () => {
   return (
-    <section className={reviewStyles.review}>
+    <section id='review' className={reviewStyles.review}>
       <h2 className={reviewStyles.title}>Review</h2>
       <div className={reviewStyles.content}>
         <div className={reviewStyles.info}>

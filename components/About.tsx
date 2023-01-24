@@ -15,7 +15,7 @@ const About: FC = () => {
   }, []);
   const mentorsIds = useTypedSelector(selectMentorsIds);
   return (
-    <section className={aboutStiles.about}>
+    <section id='about' className={aboutStiles.about}>
       <h2 className={aboutStiles.about__title}>About us</h2>
       <div className={aboutStiles.container}>
         <div className={aboutStiles.mentors}>

@@ -7,7 +7,9 @@ const Social: FC = () => {
     <ul className={socialStyles.social}>
       {socialUrl.map((url) => (
         <li className={socialStyles.social__item}>
-          <img src={`/media/social/${url}`} alt={url} />
+          <a href={`https://${url.split(".")[0]}.com`}>
+            <img src={`/media/social/${url}`} alt={url} />
+          </a>
         </li>
       ))}
     </ul>

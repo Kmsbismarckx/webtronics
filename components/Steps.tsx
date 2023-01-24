@@ -42,7 +42,7 @@ const Steps: FC = () => {
     },
   ];
   return (
-    <section className={stepsStyles.steps}>
+    <section id='steps' className={stepsStyles.steps}>
       <h2 className={stepsStyles.title}>Steps</h2>
       <div className={stepsStyles.list}>
         {steps.map((step) => (

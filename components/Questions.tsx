@@ -37,7 +37,7 @@ const Questions: FC = () => {
   ];
 
   return (
-    <section className={questionsStyle.questions}>
+    <section id='questions' className={questionsStyle.questions}>
       <h2 className={questionsStyle.title}>
         Frequently Asked <br /> Questions
       </h2>

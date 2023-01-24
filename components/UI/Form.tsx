@@ -10,7 +10,6 @@ import inputStyles from "../../styles/Input.module.scss";
 import formStyles from "../../styles/Form.module.scss";
 import buttonStyles from "../../styles/Button.module.scss";
 import Button from "./Button";
-import styles from "../../styles/Form.module.scss";
 
 const formDefaultValues: DefaultValues<Inputs> = {
   name: "",
@@ -41,6 +40,7 @@ const Form: FC = () => {
   return (
     <div id="form" className={formStyles.feedback__container}>
       <form
+        id="get-in-touch"
         className={formStyles.feedback__form}
         onSubmit={handleSubmit(onSubmit)}
       >

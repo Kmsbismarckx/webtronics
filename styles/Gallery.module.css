@@ -12,6 +12,16 @@
   font-display: swap;
   font-style: normal;
 }
+.gallery__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.title {
+  text-align: center;
+}
+
 .gallery {
   display: grid;
   gap: 24px;

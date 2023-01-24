@@ -10,26 +10,30 @@ const Gallery = () => {
   ];
 
   return (
-    <div className={galleryStyles.gallery}>
-      <p className={galleryStyles.description}>
-        By the end of this course, you will be able to develop and publish your
-        very own Google Chrome extension! In this course we will focus on coding
-        exercises and projects.
-      </p>
-      {imagesUrl.map((url) => (
-        <img
-          className={galleryStyles.img}
-          src={`/media/gallery/${url}`}
-          alt={url}
-        />
-      ))}
-      <p className={galleryStyles.description}>
-        If you would like to learn web development and get a job in the tech
-        industry, you are going to LOVE this course! Learn HTML, CSS,
-        JavaScript, Bootstrap and more with over 15 hours of HD video tutorials!
-        This course was designed to be extremely beginner friendly. We will
-        begin with the very basics of HTML and build a simple web page.
-      </p>
+    <div id="gallery" className={galleryStyles.gallery__container}>
+      <h2 className={galleryStyles.title}>Gallery</h2>
+      <div className={galleryStyles.gallery}>
+        <p className={galleryStyles.description}>
+          By the end of this course, you will be able to develop and publish
+          your very own Google Chrome extension! In this course we will focus on
+          coding exercises and projects.
+        </p>
+        {imagesUrl.map((url) => (
+          <img
+            className={galleryStyles.img}
+            src={`/media/gallery/${url}`}
+            alt={url}
+          />
+        ))}
+        <p className={galleryStyles.description}>
+          If you would like to learn web development and get a job in the tech
+          industry, you are going to LOVE this course! Learn HTML, CSS,
+          JavaScript, Bootstrap and more with over 15 hours of HD video
+          tutorials! This course was designed to be extremely beginner friendly.
+          We will begin with the very basics of HTML and build a simple web
+          page.
+        </p>
+      </div>
     </div>
   );
 };

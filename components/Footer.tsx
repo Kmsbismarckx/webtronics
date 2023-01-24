@@ -18,27 +18,27 @@ const Footer: FC = () => {
             <p className={footerStyles.title}>Company</p>
             <ul className={footerStyles.links}>
               <li>
-                <a className={footerStyles.link} href="/">
+                <a className={footerStyles.link} href={"#about"}>
                   About Us
                 </a>
               </li>
               <li>
-                <a className={footerStyles.link} href="/">
+                <a className={footerStyles.link} href={"#steps"}>
                   Steps
                 </a>
               </li>
               <li>
-                <a className={footerStyles.link} href="/">
+                <a className={footerStyles.link} href={"#questions"}>
                   FAQs
                 </a>
               </li>
               <li>
-                <a className={footerStyles.link} href="/">
+                <a className={footerStyles.link} href={"#review"}>
                   Review
                 </a>
               </li>
               <li>
-                <a className={footerStyles.link} href="/">
+                <a className={footerStyles.link} href={"#gallery"}>
                   Gallery
                 </a>
               </li>
