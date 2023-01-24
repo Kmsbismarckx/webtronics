@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Wade Warren",
+    "description": "Front-end engineers work closely with designers",
+    "imgUrl": "Wade Warren.png"
+  },
+  {
+    "id": 2,
+    "name": "Kristin Watson",
+    "description": "Front-end engineers work closely with designers",
+    "imgUrl": "Kristin Watson.png"
+  },
+  {
+    "id": 3,
+    "name": "Robert Fox",
+    "description": "Front-end engineers work closely with designers",
+    "imgUrl": "Robert Fox.png"
+  }
+]
