@@ -6,7 +6,7 @@ const Social: FC = () => {
   return (
     <ul className={socialStyles.social}>
       {socialUrl.map((url) => (
-        <li>
+        <li className={socialStyles.social__item}>
           <img src={`/media/social/${url}`} alt={url} />
         </li>
       ))}

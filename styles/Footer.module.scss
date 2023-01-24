@@ -46,6 +46,10 @@
   line-height: 17px;
 
   color: white;
+	cursor: pointer;
+	&:hover {
+	color: $button_color_hover;
+}
 }
 .logo {
   margin-bottom: 24px;
@@ -54,4 +58,7 @@
 .social {
   display: flex;
   column-gap: 24px;
+}
+.social__item {
+	cursor: pointer;
 }
