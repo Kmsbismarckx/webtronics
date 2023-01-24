@@ -3,14 +3,18 @@ import swiperStyles from "../styles/Swiper.module.scss";
 import SwiperItem from "./SwiperItem";
 import ArrowButton from "./UI/ArrowButton";
 
-const Swiper: FC = () => {
+export interface SwiperProps {
+  currentIndex: number;
+  setCurrentIndex: React.Dispatch<React.SetStateAction<number>>;
+}
+
+const Swiper: FC<SwiperProps> = ({ currentIndex, setCurrentIndex }) => {
   const photosUrl = ["man 1.png", "man 2.png", "man 3.png"];
   const photosUrlSmall = [
     "man 1 small.png",
     "man 2 small.png",
     "man 3 small.png",
   ];
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   const onLeftClick = () =>
     setCurrentIndex(currentIndex > 0 ? currentIndex - 1 : currentIndex);
