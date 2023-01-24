@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Medium.woff2") format("woff2"), url("../fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("../fonts/ClashDisplay-Semibold.woff") format("woff"), url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 219px;
+}
+
+.item:nth-child(1) {
+  margin-right: 57px;
+}
+.item:nth-child(2) {
+  max-width: 359px;
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+}
+.item:nth-child(3) {
+  position: relative;
+  width: 288px;
+  top: -24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding-right: 24px;
+  margin-right: 24px;
+}
+.item:nth-child(3) a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #0a1482;
+  padding-left: 24px;
+}
+.item:nth-child(3):hover a {
+  color: #3b48d0;
+}
+.item:nth-child(3):active a {
+  color: #fff;
+}
+.item:nth-child(3):disabled a {
+  opacity: 0.4;
+  color: #0a1482;
+}
+.item:nth-child(4) {
+  position: relative;
+  top: -24px;
+}
+.item:nth-child(5) {
+  position: absolute;
+  bottom: -8px;
+  left: 1040px;
+}
+
+/*# sourceMappingURL=Title.module.css.map */

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Medium.woff2") format("woff2"), url("../fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("../fonts/ClashDisplay-Semibold.woff") format("woff"), url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+.steps {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11.5px;
+  margin-bottom: 322.5px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: auto auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 181px;
+  background: url("../public/media/steps/line.svg") no-repeat center top 100px;
+}
+
+/*# sourceMappingURL=Steps.module.css.map */

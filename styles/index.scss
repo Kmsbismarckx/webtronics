@@ -1,0 +1,66 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $text_color;
+  background-image: url("../public/media/background.svg"),
+    url("../public/media/background_programmer.png");
+  background-size: cover, 100% 815px;
+  background-repeat: no-repeat, no-repeat;
+  background-color: $background;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+h1 {
+  font-size: 150px;
+}
+h2 {
+  font-size: 72px;
+}
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1224px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+}

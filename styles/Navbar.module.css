@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Medium.woff2") format("woff2"), url("../fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("../fonts/ClashDisplay-Semibold.woff") format("woff"), url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+.navbar {
+  display: flex;
+  column-gap: 48px;
+  width: fit-content;
+}
+
+.link {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */

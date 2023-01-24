@@ -1,0 +1,26 @@
+@import "variables";
+
+.review {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 180px;
+}
+
+.title {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  column-gap: 24px;
+}
+
+.info {
+  padding-top: 68px;
+  max-width: 392px;
+}
+
+.info__title {
+  margin-bottom: 17px;
+}

@@ -1,0 +1,28 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "email": "test@gmail.com",
+      "name": "test name",
+      "phone": "1234567890"
+    },
+    {
+      "id": 2,
+      "email": "test2@gmail.com",
+      "name": "test name2",
+      "phone": "1434567890"
+    },
+    {
+      "name": "Климент Масленников",
+      "phone": "89101238382",
+      "email": "klimentmaslennikov@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Климент Масленников",
+      "phone": "89101238382",
+      "email": "klimentmaslennikov@gmail.com",
+      "id": 4
+    }
+  ]
+}

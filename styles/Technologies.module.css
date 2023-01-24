@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Medium.woff2") format("woff2"), url("../fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("../fonts/ClashDisplay-Semibold.woff") format("woff"), url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+.technologies {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 184px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.description {
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 54px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+/*# sourceMappingURL=Technologies.module.css.map */

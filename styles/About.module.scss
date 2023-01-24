@@ -1,0 +1,53 @@
+@import "variables";
+
+.about {
+  display: flex;
+  flex-direction: column;
+	margin-bottom: 180px;
+  &__title {
+    align-self: center;
+    text-align: center;
+    margin-bottom: 56px;
+  }
+}
+
+.mentors {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../public/media/mentors/left_line.svg"),
+    url("../public/media/mentors/right_line.svg"),
+    url("../public/media/mentors/center-line.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top 50px left 100px, top 50px left 295px,
+    top 50px left 295px;
+}
+
+.container {
+  display: flex;
+  column-gap: 17px;
+}
+.mentors__title {
+  margin-bottom: 170px;
+  text-align: center;
+}
+.mentors__list {
+  column-gap: 21px;
+  display: flex;
+}
+.description {
+  margin-top: 109px;
+  width: 486px;
+}
+
+.description__container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.frontend {
+  flex-grow: 1;
+  position: relative;
+  bottom: 20px;
+  left: 106.8px;
+}

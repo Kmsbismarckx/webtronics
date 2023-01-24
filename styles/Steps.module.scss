@@ -1,0 +1,22 @@
+@import "variables";
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11.5px;
+  margin-bottom: 322.5px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: auto auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 181px;
+  background: url("../public/media/steps/line.svg") no-repeat center top 100px;
+}

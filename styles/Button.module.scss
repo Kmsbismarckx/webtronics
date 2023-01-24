@@ -1,0 +1,25 @@
+@import "variables";
+
+.form__button {
+  width: 100%;
+  height: 72px;
+  border-radius: 8px;
+  background: $button_background;
+  color: $button_color;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+  &:hover {
+    color: $button_color_hover;
+  }
+  &:active {
+    color: $button_color_active;
+  }
+  &:disabled {
+    opacity: 0.4;
+    color: $button_color;
+  }
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Medium.woff2") format("woff2"), url("../fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("../fonts/ClashDisplay-Semibold.woff") format("woff"), url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+.mentor {
+  display: flex;
+  flex-direction: column;
+  width: 184px;
+}
+.mentor:nth-child(2) {
+  position: relative;
+  bottom: 64px;
+}
+
+.img__wrapper {
+  height: 184px;
+  width: 184px;
+  border-radius: 50%;
+  padding: 2px;
+  background: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+  margin-bottom: 16px;
+}
+
+.img {
+  width: 100%;
+  border-radius: inherit;
+  font-family: "Inter", sans-serif;
+}
+
+.name {
+  margin-bottom: 4px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=Mentor.module.css.map */

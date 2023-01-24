@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Medium.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Medium.woff") format("woff"),
+    url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Semibold.woff") format("woff"),
+    url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+$background: #0c102d;
+$text_color: #fff;
+$input_text: #a2cbfb;
+$input_disabled: #636363;
+$block_background: rgba(255, 255, 255, 0.05);
+$error: #fd4646;
+$button_background: linear-gradient(
+  180deg,
+  #1ff2ff 0%,
+  #27f9e5 52.66%,
+  #2fffcd 100%
+);
+$button_color: #0a1482;
+$button_color_hover: #3b48d0;
+$button_color_active: #fff;
+
+$input_background_color: rgba(255, 255, 255, 0.05);
+$input_background: linear-gradient(
+    $input_background_color,
+    $input_background_color
+  ),
+  linear-gradient(
+    152.14deg,
+    rgba(21, 191, 253, 0.7) 9.96%,
+    rgba(156, 55, 253, 0.7) 100%
+  );
+$input_background_clip: padding-box, border-box;
+$input_border: double 1px transparent;
+$input_error_background: rgba(255, 165, 165, 0.2);

@@ -1,0 +1,19 @@
+@import "variables";
+
+.navbar {
+  display: flex;
+  column-gap: 48px;
+  width: fit-content;
+}
+
+.link__container {
+}
+
+.link {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}

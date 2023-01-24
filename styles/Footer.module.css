@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Medium.woff2") format("woff2"), url("../fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("../fonts/ClashDisplay-Semibold.woff") format("woff"), url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+.footer {
+  background: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid;
+  height: 195px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  border-image-source: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+  border-image-slice: 1;
+}
+
+.footer__container {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding-right: 225px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 24px;
+}
+
+.links {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px 145px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+}
+
+.link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+.logo {
+  margin-bottom: 24px;
+}
+
+.social {
+  display: flex;
+  column-gap: 24px;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */
